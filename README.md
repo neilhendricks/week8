@@ -1,6 +1,6 @@
 # week8
 
-Green Site
+Green Site <br/>
 Attack 1: XSS on Green
 Go to Contact Us section and give feedback
   Type any username and a fake email, and in the feedback section, inject code
@@ -16,7 +16,7 @@ Bonus Objective XSS on Green
 Similar to the previous XSS attack on Green, just use the following line of code to send the user to any link
 <SCRIPT>windows.location.assign('https://www.hofstra.edu/home/index.html')</SCRIPT>
 
-Blue Site
+Blue Site <br/>
 Attack 1: SQL injection
 Go to Find a Salesperson
 Click on a Salesperson
@@ -29,7 +29,7 @@ The session id can be found using burp
 The session id can then be manipulated to acess the users session
 
 
-Red Site
+Red Site<br/>
 Attack 1: CSRF on Red
 Similar to XSS attack on Green site. Submit a malicious script on the feeback section. 
 
