@@ -14,7 +14,7 @@ If you use an incorrect username and an incorrect passwoard, the result unsucces
 
 Bonus Objective XSS on Green
 Similar to the previous XSS attack on Green, just use the following line of code to send the user to any link
-<SCRIPT>windows.location.assign('https://www.hofstra.edu/home/index.html')</SCRIPT>
+<SCRIPT>windows.location.assign('https://www.hofstra.edu/home/index.html')</SCRIPT> <br/>
 
 Blue Site <br/>
 Attack 1: SQL injection
